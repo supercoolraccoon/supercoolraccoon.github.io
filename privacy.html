@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes — privacy policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0; font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         max-width: 720px; padding: 48px 24px; margin: 0 auto; }
+  h1 { font-size: 2rem; margin: 0 0 .25em; }
+  h2 { font-size: 1.15rem; margin: 2em 0 .5em; }
+  .lead { color: #666; margin-top: 0; }
+  footer { margin-top: 3em; padding-top: 1em; border-top: 1px solid #ddd; color: #666; font-size: .9rem; }
+</style>
+</head>
+<body>
+
+<h1>Privacy policy — Hermes</h1>
+<p class="lead">Applies to the personal application “Hermes” and its access to Google APIs.
+Last updated 21 November 2026.</p>
+
+<h2>1. Who operates this application</h2>
+<p>Hermes is a personal, single-user application operated by its owner on a private home server.
+It is not offered to the public, has no registrations and no users other than its owner. Contact:
+<a href="mailto:super.cool.raccoon@gmail.com">super.cool.raccoon@gmail.com</a>.</p>
+
+<h2>2. What Google data the application accesses</h2>
+<p>Only after the owner himself grants consent, and only for his own Google account, the
+application can access:</p>
+<ul>
+  <li><strong>Google Drive</strong> — to create and manage one folder that holds encrypted backup
+      archives of the application's own configuration, and to read or write files the owner asks it
+      to handle;</li>
+  <li><strong>Google Docs and Google Sheets</strong> — to create and edit documents and
+      spreadsheets at the owner's request.</li>
+</ul>
+<p>The application does not request Gmail, Contacts, Calendar or any other Google service.</p>
+
+<h2>3. How the data is used</h2>
+<p>Data is used solely to perform the tasks the owner asks for on his own machine. Backups are
+encrypted locally with a symmetric password (GPG, AES-256) before they are uploaded, so the file
+content stored in Drive is not readable by anyone without that password. The password is kept by
+the owner and is never sent to Google.</p>
+
+<h2>4. Storage and retention</h2>
+<p>All data stays in the owner's own Google Drive account and on his own server. Older backup
+archives are rotated automatically (the ten most recent copies are kept). No copy is stored
+anywhere else by this application.</p>
+
+<h2>5. Sharing</h2>
+<p>No data is sold, rented, published or shared with any third party. The application makes no
+requests to advertising, analytics or tracking services. Google user data is not used to train or
+improve any machine-learning model, and it is not transferred to any other party.</p>
+
+<h2>6. Security</h2>
+<p>OAuth credentials are stored on the owner's own server with file permissions restricted to the
+owner. Access can be revoked at any time by the owner at
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, which
+immediately ends the application's access.</p>
+
+<h2>7. Changes</h2>
+<p>Any change to this policy will be published on this page with an updated date.</p>
+
+<h2>8. Contact</h2>
+<p><a href="mailto:super.cool.raccoon@gmail.com">super.cool.raccoon@gmail.com</a></p>
+
+<footer><a href="index.html">← Back to the main page</a></footer>
+
+</body>
+</html>
